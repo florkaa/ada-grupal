@@ -40,11 +40,15 @@ header img{
 }
 
 .mainBanner{
+	text-align: center;
 	margin: auto;
 }
 
 .mainBanner img{
 	width: 100%;
+}
+video{
+	height: 500px;
 }
 
 .atracciones img{
