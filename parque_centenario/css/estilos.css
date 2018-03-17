@@ -13,7 +13,7 @@ nav{
 	float: right;
 	margin: 30px 0px;
 }
-nav a, .contacto a{
+nav a{
 	padding: 0px 20px;
 	font-size: 15px;
 	color: #58c1c3;
@@ -94,7 +94,7 @@ video{
 
 
 footer{
-	margin: 20px;
+	margin: 20px 20px 0px 20px;
 	background-color: #f1f1f1f1;
 	padding: 20px;
 	height: 240px;
@@ -104,9 +104,31 @@ footer .mapa{
 }
 footer .contacto{
 	display: inline-block;
-	padding: 40px 0px;
+	margin: 25px 0px;
+}
+footer p{
+	padding: 5px 0px;
+	margin: 0;
+}
+p.bold{
+	font-weight: 700;
+	padding-right: 5px; 
+}
+p.space{
+	margin-top:-8px;
+}
+.contacto a{
+	font-size: 15px;
+	color: #58c1c3;
+}
+.izqContacto, .derContacto{
+	float:left;
+}
+.izqContacto{
+	width: 140px;
 }
 
-.contacto a{
-	padding: 5px;
+.izqContacto p.space{
+	padding-top: 37px;
 }
+
