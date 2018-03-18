@@ -72,11 +72,11 @@ p#capital::first-letter{
 	margin: 20px 0px;
 	padding: 10px 0px;
 }
-.row{
-	margin:20px 0px;
-}
 .foto{
 	text-align: center;
+}
+.foto img{
+	margin:10px 0px;
 }
 .text {
   background-color: #4c6faf;
@@ -134,4 +134,21 @@ p.space{
 .izqContacto p.space{
 	padding-top: 37px;
 }
-
+@media all and (max-width: 830px) {
+	footer{
+	height: 390px;
+	}
+	footer .mapa{
+	    clear: both;
+	    width: 100%;
+	    text-align: center;
+	    margin-top: 15px;
+	}
+	footer .contacto{
+		display: block;
+		margin:0;
+	}
+	iframe{
+		width: 100%;
+	}
+}
