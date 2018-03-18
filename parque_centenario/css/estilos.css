@@ -61,11 +61,11 @@ p#capital::first-letter{
 	color: #58c1c3;
 }
 
-.atracciones img{
+#atracciones img{
 	width: 350px;
 	background-color: #000;}
 
-.atracciones p{
+#atracciones p{
 	text-align: center;
 	font-size: 30px;
 	color: #58c1c3;
