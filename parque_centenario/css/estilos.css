@@ -60,22 +60,21 @@ header img{ margin-left: 60px;
 
 .mainBanner{
 	margin: auto;
-	display: flex;
-	align-items: center;
+	text-align: center;
 }
 .mainBanner img{
 	width: 100%;
 }
 video{
-	height: 500px;
-	text-align: left;
-	margin-left: 63px;
+    margin: auto;
+    width: 71%;
 }
-.descripcion{
-  width: 500px;
+span.descripcion{
+  width: 90%;
+  margin: 40px auto;
   padding: 0px;
-  margin: 0px 0px 0px 10px;
   text-align: justify;
+  display:block;
 }
 p#capital::first-letter{
 	font: 700 78px Arial;
@@ -158,6 +157,9 @@ p.space{
 	padding-top: 37px;
 }
 @media all and (max-width: 830px) {
+	video{
+	    width: 90%;
+	}
 	footer{
 	height: 390px;
 	}
