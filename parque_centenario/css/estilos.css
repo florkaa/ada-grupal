@@ -28,36 +28,26 @@ header{
 }
 header img{
 	width: 50px;
-	margin:15px 0px;
+	margin-left: 60px;
+	margin-top: 30px; 
 }
-header img{ margin-left: 60px;
-	        margin-top: 30px; 
-
-}
-
 #container{
 	width: 90%;
 	margin: auto;
 	clear: right;
 }
-
-.titulo{color: #58c1c3;
-	    text-align: center;
-	    font-family: urban2;
-	    font-size: 50px;
-	    letter-spacing: 15px;
-}
-
 .titulo{
-	    border-bottom-width: 3px;
-	    border-bottom-style: solid;
-	    border-bottom-color: green;	   
+	color: #58c1c3;
+	text-align: center;
+	font-family: urban2;
+	font-size: 50px;
+	letter-spacing: 15px;
+	border-bottom: 3px solid green;	
 }
-
-@font-face{font-family: urban2;
-	       src: url(fuentes/urban2.otf) format('truetype')
+@font-face{
+	font-family: urban2;
+	src: url(fuentes/urban2.otf) format('truetype')
 }
-
 .mainBanner{
 	margin: auto;
 	text-align: center;
@@ -82,11 +72,10 @@ p#capital::first-letter{
 	margin: 0px 10px 0px 0px;
 	color: #58c1c3;
 }
-
 #atracciones img{
 	width: 350px;
-	background-color: #000;}
-
+	background-color: #000;
+}
 #atracciones p{
 	text-align: center;
 	font-size: 30px;
