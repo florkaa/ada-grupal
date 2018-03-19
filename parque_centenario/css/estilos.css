@@ -30,11 +30,34 @@ header img{
 	width: 50px;
 	margin:15px 0px;
 }
+header img{ margin-left: 60px;
+	        margin-top: 30px; 
+
+}
+
 #container{
 	width: 90%;
 	margin: auto;
 	clear: right;
 }
+
+.titulo{color: #58c1c3;
+	    text-align: center;
+	    font-family: urban2;
+	    font-size: 50px;
+	    letter-spacing: 15px;
+}
+
+.titulo{
+	    border-bottom-width: 3px;
+	    border-bottom-style: solid;
+	    border-bottom-color: green;	   
+}
+
+@font-face{font-family: urban2;
+	       src: url(fuentes/urban2.otf) format('truetype')
+}
+
 .mainBanner{
 	margin: auto;
 	display: flex;
