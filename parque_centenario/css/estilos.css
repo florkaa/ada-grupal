@@ -42,8 +42,9 @@ header img{
 	font-family: urban2;
 	font-size: 50px;
 	letter-spacing: 15px;
-	border-bottom: 3px solid green;	
+	border-bottom: 3px solid green; 
 }
+
 @font-face{
 	font-family: urban2;
 	src: url(fuentes/urban2.otf) format('truetype')
@@ -60,11 +61,11 @@ video{
     width: 71%;
 }
 span.descripcion{
-  width: 90%;
-  margin: 40px auto;
-  padding: 0px;
-  text-align: justify;
-  display:block;
+  	width: 90%;
+ 	margin: 40px auto;
+  	padding: 0px;
+  	text-align: justify;
+  	display:block;
 }
 p#capital::first-letter{
 	font: 700 78px Arial;
@@ -89,7 +90,7 @@ p#capital::first-letter{
 .foto img{
 	margin:10px 0px;
 }
-.text {
+.text{
   background-color: #4c6faf;
   color: white;
   font-size: 16px;
@@ -105,7 +106,7 @@ p#capital::first-letter{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.foto:hover .middle {
+.foto:hover .middle{
   opacity: 1;
 }
 footer{
