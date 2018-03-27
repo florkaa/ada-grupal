@@ -6,19 +6,35 @@
 }
 
 body {
+	margin: auto;
+}
+
+.ancho {
 	width: 80%;
 	margin: auto;
+}
+
+header, footer{
+	background-color: #B0BEC5;
 }
 
 header, .title, footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 20px;
+	padding: 10px 60px; 
 }
 
 nav a {
 	padding-left: 20px;
+	font-weight: 900;
+	font-size: 20px;
+	color: #000;
+}
+
+nav a:hover {
+	color: #536DFE;
+	text-decoration: none;
 }
 
 .title .redes, .title figure {
@@ -29,13 +45,23 @@ nav a {
 	width: 50%;
 }
 
+h1 {
+	color: #81D4FA;
+}
+
 .redes {
 	text-align: right;
 }
 
 .redes a {
 	font-size: 2em;
+	padding: 0px 10px;
 	display: inline-block;
+	color: #81D4FA;
+}
+
+.redes a:hover {
+	color: #536DFE;
 }
 
 .perfiles {
@@ -45,10 +71,16 @@ nav a {
 	margin: 30px 0px;
 }
 
+.perfiles p:hover {
+	text-decoration: none;
+	color: black;
+}
+
 .box-perfil {
 	width: 30%;
 	display: flex;
 }
+
 
 figure {
 	width: 40%;
@@ -64,4 +96,8 @@ figure .foto-perfil {
 	display: flex;
 	justify-content: center;
 	flex-flow: column;
+}
+
+.box-perfil div b {
+	color: #71c6ed;
 }
