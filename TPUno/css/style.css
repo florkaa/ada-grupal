@@ -2,17 +2,66 @@
 	box-sizing: border-box;
 	padding: 0px;
 	margin: 0px;
+	font-family: 'Slabo 27px', serif;
 }
 
 body {
 	width: 80%;
 	margin: auto;
 }
-header {
+
+header, .title, footer {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
 }
 
-nav a{
+nav a {
 	padding-left: 20px;
+}
+
+.title .redes, .title figure {
+	width: 25%;
+}
+
+.title .bio {
+	width: 50%;
+}
+
+.redes {
+	text-align: right;
+}
+
+.redes a {
+	font-size: 2em;
+	display: inline-block;
+}
+
+.perfiles {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+
+.box-perfil {
+	width: 30%;
+	display: flex;
+}
+
+figure {
+	width: 40%;
+	height: auto;
+}
+
+figure .foto-perfil {
+	width: 100%;
+}
+
+.box-perfil div {
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
 }
