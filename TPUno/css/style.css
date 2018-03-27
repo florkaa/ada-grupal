@@ -9,11 +9,6 @@ body {
 	margin: auto;
 }
 
-.ancho {
-	width: 80%;
-	margin: auto;
-}
-
 header, footer{
 	background-color: #B0BEC5;
 }
@@ -23,6 +18,11 @@ header, .title, footer {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 60px; 
+}
+
+.ancho {
+	width: 80%;
+	margin: auto;
 }
 
 nav a {
@@ -71,6 +71,9 @@ h1 {
 	margin: 30px 0px;
 }
 
+.perfiles a{
+	text-decoration: none;
+}
 .perfiles p:hover {
 	text-decoration: none;
 	color: black;
