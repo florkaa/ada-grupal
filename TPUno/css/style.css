@@ -32,7 +32,7 @@ nav a {
 	color: #000;
 }
 
-nav a:hover {
+nav a:hover, footer a:hover {
 	color: #536DFE;
 	text-decoration: none;
 }
@@ -74,9 +74,8 @@ h1 {
 .perfiles a{
 	text-decoration: none;
 }
-.perfiles p:hover {
-	text-decoration: none;
-	color: black;
+.box-perfil:hover{
+	box-shadow: 2px 2px 5px #999;
 }
 
 .perfiles img {
@@ -87,7 +86,6 @@ h1 {
 	width: 30%;
 	display: flex;
 }
-
 
 figure {
 	width: 40%;
@@ -105,6 +103,20 @@ figure .foto-perfil {
 	flex-flow: column;
 }
 
-.box-perfil div b {
+.box-perfil div {
 	color: #71c6ed;
 }
+footer{
+	bottom:0;
+}
+footer a{
+	color:#000;
+}
+.correo{
+	margin-right: 15px;
+}
+ .redes-footer a{
+ 	color:#000;
+ 	font-size: 2em;
+ 	padding: 0px 10px;
+ }
