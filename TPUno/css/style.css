@@ -9,7 +9,7 @@ body {
 	margin: auto;
 }
 
-header, footer{
+header, footer {
 	background-color: #e7f0f6;
 }
 
@@ -18,11 +18,6 @@ header, .title, footer {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 60px; 
-}
-
-.ancho {
-	width: 80%;
-	margin: auto;
 }
 
 nav a {
@@ -36,16 +31,20 @@ nav a:hover, footer a:hover {
 	color: #536DFE;
 	text-decoration: none;
 }
-.carousel{
+
+.carousel {
 	margin: 40px 0px;
 }
+
 .title .redes, .title figure {
 	width: 25%;
 }
-.title{
+
+.title {
 	background-color: #f1f1f1;
 	margin: 20px 0px;
 }
+
 .title .bio {
 	width: 50%;
 }
@@ -71,26 +70,27 @@ h1 {
 }
 
 .perfiles {
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin: 30px 0px;
+	margin: 30px auto;
+	width: 80%;
 }
 
-.perfiles a{
+.perfiles a {
 	text-decoration: none;
-}
-.box-perfil:hover{
-	box-shadow: 2px 2px 5px #999;
-}
-
-.perfiles img {
-	border-radius: 50%;
 }
 
 .box-perfil {
 	width: 30%;
 	display: flex;
+}
+
+.box-perfil:hover {
+	box-shadow: 2px 2px 5px #999;
+}
+
+.perfiles img {
+	border-radius: 50%;
 }
 
 figure {
@@ -111,18 +111,130 @@ figure .foto-perfil {
 
 .box-perfil div {
 	color: #71c6ed;
-}
-footer{
+} 
+
+footer {
 	bottom:0;
 }
-footer a{
+
+footer a {
 	color:#000;
 }
-.correo{
+
+.correo {
 	margin-right: 15px;
 }
- .redes-footer a{
+
+.redes-footer a {
  	color:#000;
  	font-size: 2em;
  	padding: 0px 10px;
+ }
+
+ #mobile{
+	display: none;
+}
+
+.dropdownMobile {
+	color: #000;
+  position: relative;
+  padding: 5px 0px;
+}
+
+.dropdownMobile .fa-bars {
+	font-size: 30px;
+}
+
+.dropdown-contentMobile {
+	width: 275px;
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdownMobile:hover .dropdown-contentMobile {
+    display: block;
+}
+
+
+.dropdown-contentMobile a {
+	display: block;
+	color: #000;
+	padding: 5px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.dropdown-contentMobile a:hover {
+	color: #81D4FA;
+}
+
+ @media (max-width: 750px) {
+  #mobile {
+	display: block;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.title figure, .title .redes {
+		display: none;
+	}
+
+	.title .bio {
+		width: 100%;
+	}
+
+	footer {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.redes-footer {
+		margin-top: 20px;
+	}
+
+	.box-perfil {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+	}
+	
+	figure {
+		width: 100%;
+		height: auto;
+	}
+
+	.perfiles, .box-perfil {
+		flex-flow: column;
+		align-items: center;
+	}
+
+	.perfiles b {
+		display: none;
+	}
+	
+	.perfiles p {
+    background-color: #f1f1f1;
+    color: black;
+    position: absolute;
+    padding: 5px 10px;
+  	bottom: 4%;
+  	left: 50%;
+  	transform: translate(-50%, -4%);
+  	-ms-transform: translate(-50%, -4%);
+  	text-align: center;
+	}
+
+	.box-perfil:hover {
+		box-shadow: 2px 2px 5px #999;
+		border-radius: 50%;
+}
  }
