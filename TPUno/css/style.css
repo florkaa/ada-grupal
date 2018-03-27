@@ -6,6 +6,7 @@
 }
 
 body {
+	width: 100%;
 	margin: auto;
 }
 
@@ -34,6 +35,10 @@ nav a:hover, footer a:hover {
 
 .carousel {
 	margin: 40px 0px;
+}
+
+.ancho img {
+	margin: auto;
 }
 
 .title .redes, .title figure {
@@ -78,6 +83,8 @@ h1 {
 
 .perfiles a {
 	text-decoration: none;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .box-perfil {
@@ -91,19 +98,19 @@ h1 {
 
 .perfiles img {
 	border-radius: 50%;
+	padding: 3px;
 }
 
 figure {
-	width: 40%;
+	width: auto;
 	height: auto;
 }
 
 figure .foto-perfil {
-	width: 100%;
+	width: 160px;
 }
 
 .box-perfil div {
-	margin-left: 20px;
 	display: flex;
 	justify-content: center;
 	flex-flow: column;
@@ -129,9 +136,9 @@ footer a {
  	color:#000;
  	font-size: 2em;
  	padding: 0px 10px;
- }
+}
 
- #mobile{
+#mobile {
 	display: none;
 }
 
@@ -158,9 +165,8 @@ footer a {
 }
 
 .dropdownMobile:hover .dropdown-contentMobile {
-    display: block;
+  display: block;
 }
-
 
 .dropdown-contentMobile a {
 	display: block;
@@ -174,9 +180,18 @@ footer a {
 	color: #81D4FA;
 }
 
- @media (max-width: 750px) {
-  #mobile {
-	display: block;
+/*TABLET*/
+@media (max-width: 1235px) {
+	.box-perfil {
+		flex-flow: column;
+		align-items: center;
+	}
+}
+
+/*MOBILE*/
+@media (max-width: 750px) {
+	#mobile {
+		display: block;
 	}
 
 	nav {
@@ -236,5 +251,5 @@ footer a {
 	.box-perfil:hover {
 		box-shadow: 2px 2px 5px #999;
 		border-radius: 50%;
+	}
 }
- }
