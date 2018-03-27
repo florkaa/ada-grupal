@@ -10,7 +10,7 @@ body {
 }
 
 header, footer{
-	background-color: #B0BEC5;
+	background-color: #e7f0f6;
 }
 
 header, .title, footer {
@@ -36,17 +36,23 @@ nav a:hover, footer a:hover {
 	color: #536DFE;
 	text-decoration: none;
 }
-
+.carousel{
+	margin: 40px 0px;
+}
 .title .redes, .title figure {
 	width: 25%;
 }
-
+.title{
+	background-color: #f1f1f1;
+	margin: 20px 0px;
+}
 .title .bio {
 	width: 50%;
 }
 
 h1 {
 	color: #81D4FA;
+	margin-top:10px;
 }
 
 .redes {
