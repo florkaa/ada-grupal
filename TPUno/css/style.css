@@ -79,6 +79,10 @@ h1 {
 	color: black;
 }
 
+.perfiles img {
+	border-radius: 50%;
+}
+
 .box-perfil {
 	width: 30%;
 	display: flex;
