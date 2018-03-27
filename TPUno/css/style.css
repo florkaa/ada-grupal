@@ -8,11 +8,13 @@ body {
 	width: 80%;
 	margin: auto;
 }
-header {
+header, .title, footer {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 20px;
 }
 
 nav a{
 	padding-left: 20px;
 }
+
