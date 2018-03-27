@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav a{
+	padding-left: 20px;
+}
