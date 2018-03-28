@@ -103,11 +103,11 @@ h1 {
 
 .box-perfil:hover {
 	-webkit-filter: brightness(50%);
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .perfiles img {
@@ -224,10 +224,10 @@ footer a {
 	}
 
 	.box-perfil {
-	    width: 200px;
-	    height: 200px;
-	    padding: 20px;
-	    position: relative;
+	  width: 200px;
+	  height: 200px;
+	  padding: 20px;
+	  position: relative;
 	}
 
 	figure {
@@ -245,16 +245,16 @@ footer a {
 	}
 	
 	.perfiles p {
-	    background-color: #f1f1f1;
-	    border-radius: 10%;
-	    color: black;
-	    position: absolute;
-	    padding: 5px 10px;
-	  	bottom: 4%;
-	  	left: 50%;
-	  	transform: translate(-50%, -4%);
-	  	-ms-transform: translate(-50%, -4%);
-	  	text-align: center;
+	  background-color: #f1f1f1;
+	  border-radius: 10%;
+	  color: black;
+	  position: absolute;
+	  padding: 5px 10px;
+	  bottom: 4%;
+	  left: 50%;
+	  transform: translate(-50%, -4%);
+	  -ms-transform: translate(-50%, -4%);
+	  text-align: center;
 	}
 
 	.redes-footer {
