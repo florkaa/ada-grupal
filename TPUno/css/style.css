@@ -37,10 +37,10 @@ nav a:hover, footer a:hover {
 	margin: 40px 0px;
 }
 .carousel-indicators li{
-	border: 1px solid #f1f1f1;
+	border: 1px solid #e7f0f6;
 }
 .carousel-indicators .active{
-	background-color: #f1f1f1;
+	background-color: #e7f0f6;
 }
 .carousel-indicators {
     bottom: 0;
