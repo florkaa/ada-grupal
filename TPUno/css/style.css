@@ -135,7 +135,7 @@ figure .foto-perfil {
 } 
 
 footer {
-	bottom:0;
+	width: 100%;
 }
 
 footer a {
@@ -194,8 +194,42 @@ footer a {
 	color: #81D4FA;
 }
 
+	/*QUIENES SOMOS*/
+
+.titulo{
+	width: 100%;
+	margin: 30px auto 0;
+	text-align: center;
+}
+
+section.nosotras{
+	width: 60%;
+	margin: 30px auto;
+}
+
+article.caja{
+	display: flex;
+	margin: 30px 0;
+}
+figure.us{
+	width: 40%;
+} 
+
+figure.us img{
+	width: 80%;
+	border-radius: 50%;
+}
+.info{
+	width: 60%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+
+
 /*TABLET*/
 @media (max-width: 1235px) {
+	/*HOME*/
 	.box-perfil {
 		flex-flow: column;
 		align-items: center;
@@ -207,6 +241,7 @@ footer a {
 
 /*MOBILE*/
 @media (max-width: 750px) {
+	/*HOME*/
 	#mobile {
 		display: block;
 	}
@@ -264,5 +299,10 @@ footer a {
 	footer {
 		display: flex;
 		flex-flow: column;
+	}
+	
+	/*QUIENES SOMOS*/
+	section.nosotras{
+		width: 90%;
 	}
 }
