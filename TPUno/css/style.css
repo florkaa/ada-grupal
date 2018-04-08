@@ -316,4 +316,41 @@ figure.us img{
 	section.nosotras{
 		width: 90%;
 	}
+    /*SERVICIOS*/
+    .servmain{
+    	display: flex;
+    	flex-direction: column;
+    }
+}
+
+/*SERVICIOS*/
+
+.servmain{
+	width: 100%;
+	height: auto;
+	background: white;
+	display: flex;
+	justify-content: center;
+}
+
+.first, .second{
+	display: inline-block;
+	padding: 50px;
+}
+
+.diseñoweb,.devweb,.socialmedia,.mobile {
+	border-radius: 50%;
+	width: 500px;
+	height: 500px;
+	background: #ffe1ff;
+	margin-top: 50px;
+}
+
+p{
+	color: #8e8b90;
+	text-align: center;
+	font-size: 25px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    padding: 50px;
 }
