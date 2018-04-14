@@ -270,6 +270,11 @@ span {
 	font-size: 2.5em;
 	text-transform: uppercase;
 }
+.circle p{
+	margin: 5px 0 10px;
+    border-top: 1px #8e8b90 solid;
+    padding: 15px 0;
+}
 
 /*TABLET*/
 @media (max-width: 1235px) {
