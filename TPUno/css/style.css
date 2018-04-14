@@ -265,7 +265,7 @@ figure.us img {
 	background-color: #e7f0f6;
 	margin: 20px;
 	text-align: center;
-	padding: 28px;
+	padding: 25px;
 }
 
 span {
@@ -274,11 +274,11 @@ span {
 	text-align: center;
 	font-size: 2.5em;
 	text-transform: uppercase;
+	border-bottom: 1px #8e8b90 dotted;
+	padding: 0 30px 10px;
 }
 .circle p{
-	margin: 5px 0 10px;
-    border-top: 1px #8e8b90 solid;
-    padding: 15px 0;
+    margin-top:20px;
 }
 
 /*TABLET*/
